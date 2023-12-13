@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tempo-container{
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #123;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+}
+
+#tempo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#gravar{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#gravar:focus{
+    outline: none;
+}
+
+.gravando{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.hidden{
+    opacity: 0 !important;
+}
+
+#mic-icon{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    opacity: 0.3;
+}
+
+.gravador-container{
+    margin-bottom: 20px;
+}
+
+.grupo{
+    justify-items: center;
+    align-self: center;
+    margin-top: 20px;
+    flex-direction: column;
+    box-sizing: none;
+}
+
+#btn-prefer{
+    display: block;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: none;
+    border: 0px none;
+    margin-top: 5px;
+}
+
+#dest{
+    display: block;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: none;
+    border: 0px none;
+    margin-top: 10px;
+}
